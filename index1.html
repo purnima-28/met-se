@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./CSS/index1.css">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="main">
+        <section>
+            <button class="btn">Add todo</button>
+            <p>TODO</p>
+        </section>
+        <section class="title">
+            <h1 class="todo">TODO</h1>
+        </section>
+        <section class="data">
+            <div class="content">
+                <div class="line1">
+                    <h1>Complete HTML Learning </h1>
+                    <p>Learning all HTML tags, learn new article tag</p>
+                    <button><i class="fa fa-2x fa-trash" aria-hidden="true"></i></butto>
+                </div>
+                <div class="line2">
+                    <h1>Learn map() method</h1>
+                    <p>Learn how to implement map method in javascript</p>
+                    <button><i class="fa fa-2x fa-trash" aria-hidden="true"></i></button>
+                </div>
+                <div class="line3">
+                    <h1>Take Notes</h1>
+                    <p>Take notes regarding css fundamentals</p>
+                    <button><i class="fa fa-2x fa-trash" aria-hidden="true"></i></button>
+                </div>
+                <div class="line4">
+                    <h1>Water Plants</h1>
+                    <p>Water all plants in garden</p>
+                    <button><i class="fa fa-2x fa-trash" aria-hidden="true"></i></button>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="pop" id="popup">
+            <div class="sign">
+                
+                <div class="info">
+                    <label> Todo Name </label>
+                    <input id="name" type="text" placeholder="enter todo name">
+                </div>
+                <div class="info">
+                    <label>Description </label>
+                    <input id="description" type="text" placeholder="enter description">
+                </div>
+                <div class="info">
+                    <label>priority</label>
+                    <select width="30">
+                        <option>---select---</option>
+                        <option>High priority</option>
+                        <option>Medium priority</option>
+                        <option>Low priority</option>
+                    </select>
+                </div>
+    
+                <div class="signbtn">
+                    <button id="save" type="button"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                        Save</button>
+                </div>
+    
+                
+            </div>
+            </section>
+    </main> 
+    <script src="./JS/index1.js"></script> 
+</body>
+</html>

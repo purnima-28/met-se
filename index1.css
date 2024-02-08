@@ -1,0 +1,174 @@
+ * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.main{
+    display: flex;
+  background-image: url(../IMG/sergei-a--heLWtuAN3c-unsplash\ \(1\).jpg);
+    width: 99%;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 30px;
+  background-size: cover;
+  position: fixed;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  align-items: center;
+} 
+.todo{
+    color: white;
+    margin-top: 4rem;
+    align-items: center;
+} 
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+    margin-bottom: 8%;
+    border-radius: 30px;
+    padding: 0.5rem 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
+
+}
+
+.title{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 8%;
+    margin-left: 30rem;
+}
+.data{
+    margin-top: 40rem;
+    margin-bottom: 14rem;
+    margin-right: 14rem;
+    margin-left: 23rem;
+    display: flex;
+    background-color: whitesmoke  ;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 50vw;
+    height: 65vh;
+    justify-content: center;
+    position: fixed;
+    box-shadow: -2px 2px 12px 2px rgb(59, 59, 55);
+}
+.content button{
+    color: red;
+    display: flex;
+    border: none;
+    margin-left: 35rem;
+}
+
+.line1{
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.line2{
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.line3{
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.line4{
+    margin:2rem ;
+    text-align: left;
+    padding-bottom: -1.5rem ;
+}
+
+.pop{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign{
+    padding: 2rem 2rem;
+    margin-top: 25rem;
+    height: 55vh;
+    width: 25%;
+    border-radius: 30px;
+    background-color: white ;
+    box-shadow: 4px 4px 15px 5px black;
+}
+
+.info > input {
+    margin-top: 30px;
+    padding: 0.4rem;
+    border: 2px solid #942eed;
+    outline: none;
+    border-radius: 10px;
+    background-color:#C481FF;
+    color: black;
+    font-size: 1rem;
+    border-radius: 3rem;
+    width: 100%;
+    height: 6vh;
+  }
+  .info>select{
+    background-color:#C481FF;
+    border: 2px solid #942eed;
+    border-radius: 3rem;
+    width: 100%;
+    height: 6vh;
+  }
+
+  .signbtn {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .signbtn > button {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 0 3rem 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .signbtn > button:active {
+    background-color: lightblue;
+    color: black;
+}
+.line1{
+    border-bottom: 2px solid rgb(105, 99, 99);
+}
+.line2{
+    border-bottom: 2px solid rgb(105, 99, 99);
+}
+.line3{
+    border-bottom: 2px solid rgb(105, 99, 99);
+}
+.line4{
+    border-bottom: 2px solid rgb(105, 99, 99);
+}
